@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding:0;
+   /* background-color: hsla(294, 87%, 28%, 0.928);
+   background-color: hsl(300, 74%, 18%);*/
+}
+.sidebar{
+    position: absolute;
+    background-color: rgba(243, 247, 17, 0.739);
+    font-family: 'fira sans',sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding:45px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 20px;
+    padding:20px 0;
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:black;
+}
+
+.main{
+   /* background-color: yellow;*/
+    width:90vw;
+    background-color: hsla(294, 87%, 28%, 0.928);
+
+}
+
+.container{
+    display:flex;
+    background-color: hsla(294, 92%, 24%, 0.928);
+
+}
+.infoContainer{
+  /* background-color: rgb(202,9,128);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.poojaInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro',monospace;
+    font-size: 16px;
+}
+.hello{
+font-size: 3em;
+color:rgba(213, 211, 241, 0.997);
+
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans',sans-serif;
+    color:rgb(8, 250, 226);
+}
+.about{
+    font-size: 2.5em;
+    color:rgba(255, 255, 255, 0.84);
+
+
+
+}
+.moreabout{
+    font-size: 1.5em;
+    font-family: 'Fira Sans',sans-serif;
+    color:rgba(255, 255, 255, 0.679);
+
+
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size: 10px;
+
+}
+
+.btn{
+padding: 5px 10px;
+border-radius: 22px;
+color:white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 1em;
+margin:3px 3px;
+cursor: pointer;
+}
+.btn:hover{
+    background:white;
+    color: dodgerblue;
+}
+
+.poojaPic img{
+    border-radius: 42px;
+    height: 58vh;
+    border: 2px solid rgb(244, 240, 7);
+}
+.contactform{
+    padding:0 20px;
+    font-family: 'Fira Sans',sans-serif ;
+    margin:88px;
+}
+.contactform{
+    padding:0px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro',monospace;
+   /* padding:12px 0;*/
+}
+
+.contactform form div{
+    padding:7px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+   /* width:26vw;*/
+    border-radius: 5px;
+    margin:6px 0 0 0;
+    padding: 2px;
+}
+.contactform form {
+    margin:0 40px;
+
+}
+#emailHelp{
+    font-size: 11px;
+    color:midnightblue;
+    margin:0 5px;
+    padding:3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width:15px;
+    margin:3px 0;
+}
+
+.blogItem{
+    margin:20px;
+    font-family: 'Fira Sans',sans-serif ;
+    color: rgba(14, 221, 225, 0.895);
+}
+.blogcontainer{
+    margin: 50px 8px;
+
+}
+
+h1{
+    font-family: 'Fira Sans',sans-serif ;
+    margin:23px;
+    color: rgb(255, 255, 255);
+
+
+}
+
+p{
+    font-family: 'Source Code Pro',monospace;
+    font-size: 10px;
+    color:rgba(255, 255, 255, 0.912);
+}
+.intro{
+    margin:88px;
+    color:white;
+
+
+}
+
+.intro h2{
+    font-family: 'Fira Sans',sans-serif ;
+    margin:12px;
+
+}
+.intro p{
+    font-family: 'Source Code Pro',monospace;
+    margin:12px;
+
+}
+.skillContaner{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro',monospace;
+     font-weight: 900;
+}
+.skill{
+    width:265px;
+    height:6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundered{
+    width:265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width:125px;
+    background-color: aqua;
+}
+.t5{
+    width:75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position:absolute;
+    cursor: pointer;
+    top:10px;
+    left:10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+.cross{
+    margin-left:126px;
+}
+
+@media(max-width:1005px){
+    *{
+       /*background-color: rgb(230, 146, 146);*/
+    }
+    .buttons{
+        font-size: 6px;
+
+    }
+    .poojaInfo{
+        font-size: 10px;
+    }
+    .poojaPic{
+        display: none;
+    }
+    .intro, .blogcontainer{
+        margin:8px;
+    
+    }
+
+}
